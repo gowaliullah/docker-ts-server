@@ -31,6 +31,9 @@ docker ps -a
 # Remove a specific image
 docker image rm <image_id>
 
+# Remove a specific container
+docker container rm <container_id>
+
 
 
 
