@@ -38,6 +38,9 @@ docker container rm <container_id>
 # Remove all unused (dangling) images
 docker image prune
 
+# Start a stopped container
+docker container start <container_id>
+
 
 
 
