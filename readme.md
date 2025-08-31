@@ -28,7 +28,8 @@ docker rmi <image_id>
 # List all containers (both running and stopped)
 docker ps -a
 
-
+# Remove a specific image
+docker image rm <image_id>
 
 
 
