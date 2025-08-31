@@ -41,7 +41,8 @@ docker image prune
 # Start a stopped container
 docker container start <container_id>
 
-
+# Stop a running container
+docker container stop <container_id>
 
 
 
