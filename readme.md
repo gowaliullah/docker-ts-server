@@ -35,5 +35,16 @@ docker image rm <image_id>
 docker container rm <container_id>
 
 
+# Remove all unused (dangling) images
+docker image prune
+
+
+
+
+
+
+
+
+
 
 
