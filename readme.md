@@ -21,6 +21,8 @@ docker ps
 docker rm <container_id>
 
 
+# Remove an image by image ID
+docker rmi <image_id>
 
 
 
