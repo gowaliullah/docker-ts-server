@@ -17,7 +17,8 @@ docker run -p 3000:3000 <image_id>
 docker ps 
 
 
-
+# Remove a running/stopped container by container ID
+docker rm <container_id>
 
 
 
