@@ -25,6 +25,10 @@ docker rm <container_id>
 docker rmi <image_id>
 
 
+# List all containers (both running and stopped)
+docker ps -a
+
+
 
 
 
