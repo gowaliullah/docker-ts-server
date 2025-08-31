@@ -10,3 +10,19 @@ docker images
 
 # Run a container from an image and map port 3000 of container to port 3000 of host
 docker run -p 3000:3000 <image_id>
+
+
+
+# List all currently running containers
+docker ps 
+
+
+
+
+
+
+
+
+
+
+
