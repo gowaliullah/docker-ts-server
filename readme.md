@@ -45,6 +45,10 @@ docker container start <container_id>
 docker container stop <container_id>
 
 
+# Run a container and automatically remove it when stopped (--rm flag)
+docker run -p 3000:3000 --rm <image_id>
+
+
 
 
 
