@@ -52,6 +52,7 @@ docker run -p 3000:3000 --rm <image_id>
 docker build -t docker-ts:1 .
 
 
+docker run -p 5000:5000 --rm REPOSITORY:TAG
 
 
 
