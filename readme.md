@@ -60,6 +60,12 @@ docker run -p 5000:5000 --rm --name docker-app REPOSITORY:TAG
 docker image prune -a
 
 
+# for create github repo
+docker build -t gowaliullah/ts-node-backed:v1 .
+
+
+
+
 
 
 
