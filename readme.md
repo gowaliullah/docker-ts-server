@@ -55,6 +55,8 @@ docker build -t docker-ts:1 .
 docker run -p 5000:5000 --rm REPOSITORY:TAG
 
 
+docker run -p 5000:5000 --rm --name docker-app REPOSITORY:TAG
+
 
 
 
