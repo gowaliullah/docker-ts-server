@@ -63,7 +63,8 @@ docker image prune -a
 # for create github repo
 docker build -t gowaliullah/ts-node-backed:v1 .
 
-
+# For rename
+docker image tag docker-ts:lateat gowaliullah/ts-node-backed:v1
 
 
 
