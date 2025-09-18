@@ -49,6 +49,10 @@ docker container stop <container_id>
 docker run -p 3000:3000 --rm <image_id>
 
 
+docker build -t docker-ts:1 .
+
+
+
 
 
 
