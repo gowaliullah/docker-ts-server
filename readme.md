@@ -82,3 +82,5 @@ docker container start --attach ts-docker-container
 
 
  docker run -p 5000:5000 --name ts-docker-container --rm -v ts-docler-log:/app/logs ts-docker:v2
+
+ docker volume rm ts-docler-log
