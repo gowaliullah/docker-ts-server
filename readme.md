@@ -69,6 +69,9 @@ docker image tag docker-ts:lateat gowaliullah/ts-node-backed:v1
 docker run -p 5000:5000 --name ts-docker-container --rm ts-docker:v1
 
 
+docker run -p 5000:5000 --name ts-docker-container ts-docker:v1
+
+
 
 
 
