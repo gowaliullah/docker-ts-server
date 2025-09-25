@@ -6,9 +6,9 @@ let server: Server;
 
 async function main() {
   try {
-    server = app.listen(process.env.PORT, () => {
-      console.log(`app is listening on port ${process.env.PORT}`);
-      logger.info(`app is listening on port ${process.env.PORT}`);
+    server = app.listen(5000, () => {
+      console.log(`app is listening on port:5000`);
+      logger.info(`app is listening on port:5000`);
     });
   } catch (err) {
     console.log(err);
