@@ -89,3 +89,5 @@ docker container start --attach ts-docker-container
 ## bind mound
 docker run -p 5000:5000 --name ts-docker-container -v ts-docler-log://app/logs -w //app  -v "/home/waliullah/docker-with-typescript-backend/package.json
 "://app -v //app/node_modules --rm  ts-docker:v2     
+
+docker run -p 5000:5000 --name ts-docker-container -v ts-docler-log://app/logs -w //app  -v "//$(pwd)"://app -v //app/node_modules --rm  ts-docker:v2  
