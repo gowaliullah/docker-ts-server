@@ -74,5 +74,11 @@ docker run -p 5000:5000 --name ts-docker-container ts-docker:v1
 
 docker container start attach ts-docker-container
 
+docker container start --attach ts-docker-container
+
+
+### Volumes
+## Miror
+
 
 
