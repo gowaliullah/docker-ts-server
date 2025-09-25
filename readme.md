@@ -81,4 +81,4 @@ docker container start --attach ts-docker-container
 ## Miror
 
 
-
+ docker run -p 5000:5000 --name ts-docker-container --rm -v ts-docler-log:/app/logs ts-docker:v2
