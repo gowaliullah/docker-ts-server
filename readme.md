@@ -97,13 +97,16 @@ docker run -p 5000:5000 --name ts-docker-container -v ts-docler-log://app/logs -
 
 ## networking
 
+docker network create ts-docker-network
+
 host.docker.internal instead of 172.17.0.2
 
 <!-- container to container communicate -->
 ip:172.17.0.2   
-
+  
 docker run --name mongodb --rm --network ts-docker-network mongo
 
+docker run -p 5000:5000 --name ts-docker-container -v ts-docler-log://app/logs -w //app  -v "//$(pwd)"://app -v //app/node_modules --rm --env-file .env --network ts-docker-network ts-docker:v2  
 
 
 docker
