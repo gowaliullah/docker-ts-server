@@ -96,3 +96,12 @@ docker run -p 5000:5000 --name ts-docker-container -v ts-docler-log://app/logs -
 
 
 ## networking
+
+host.docker.internal instead of 172.17.0.2
+
+<!-- container to container communicate -->
+ip:172.17.0.2
+
+docker
+
+ docker pull mongo
