@@ -101,6 +101,8 @@ docker network create ts-docker-network
 
 docker network ls 
 
+docker network inspect
+
 docker network rm ts-docker-network
 
 host.docker.internal instead of 172.17.0.2
