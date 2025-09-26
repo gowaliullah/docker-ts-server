@@ -102,6 +102,10 @@ host.docker.internal instead of 172.17.0.2
 <!-- container to container communicate -->
 ip:172.17.0.2
 
+docker run --name --rm --network ts-docker-network mongo
+
+
+
 docker
 
  docker pull mongo
