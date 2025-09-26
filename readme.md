@@ -99,6 +99,8 @@ docker run -p 5000:5000 --name ts-docker-container -v ts-docler-log://app/logs -
 
 docker network create ts-docker-network
 
+docker network ls 
+
 host.docker.internal instead of 172.17.0.2
 
 <!-- container to container communicate -->
