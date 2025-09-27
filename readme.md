@@ -123,3 +123,9 @@ docker
  ## connecting with many container
 
  docker run --name mongodb --rm -p 27017:27017  mongo
+
+
+ docker run --name ts-docker-backend-container --rm --network ts-docker-net --env-file .env -w //app -v ts-docker-logs://app/logs -v "//$(pwd)"://app -v //app/node_modules -p 5000:5000 ts-docker-backend:v5
+
+# NextJS/React/Frontend Container
+ docker run --name ts-docker-frontend-conatiner --rm -p 3000:3000 --env-file .env.local -w //app -v "//$(pwd)"://app -v //app/node_modules --network ts-docker-net -e WATCHPACK_POLLING=true ts-docker-frontend:v5
