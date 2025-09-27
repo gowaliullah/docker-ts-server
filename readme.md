@@ -118,3 +118,8 @@ docker run -p 5000:5000 --name ts-docker-container -v ts-docler-log://app/logs -
 docker
 
  docker pull mongo
+
+
+ ## connecting with many container
+
+ docker run --name mongodb --rm -p 27017:27017  mongo
