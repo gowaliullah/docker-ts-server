@@ -23,6 +23,14 @@ services:
 
     volumes:
       - ts-docker-logs:/app/logs # named volume
+      - :/app # bind mount
+      - /app/node_modules #annymous volume
+
+    env_file:
+      - .env
+
+    depends_on:
+      - mongo
 
   
 
@@ -32,5 +40,6 @@ services:
 
 volumes:
   ts-docker-db:
+  ts-docker-logs:
 
 
