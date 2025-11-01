@@ -1,5 +1,7 @@
 ## 🔨 Build & Images
 
+
+
 # Build a Docker image from Dockerfile (current directory)
 docker build .
 
@@ -19,7 +21,8 @@ docker image prune
 docker image prune -a
 
 # Rename / tag an image
-docker image tag docker-ts:latest gowaliullah/ts-node-backend:v1
+docker image tag docker-ts:lateat gowaliullah/ts-node-backend:v1
+
 
 
 ## 🐳 Containers

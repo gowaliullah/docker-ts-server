@@ -132,3 +132,13 @@ docker
 
 # Mongo DB Container with db_namd & db_password
  docker run --name mongodb --rm -v ts-docker-db:/data/db --network ts-docker-net -e MONGO_INITDB_ROOT_USERNAME=ts-docker -e MONGO_INITDB_ROOT_PASSWORD=ts-docker mongo
+
+
+
+
+
+
+
+ ## for create multiple conatiner with docker compose
+ create --> docker conpose up
+ remove --> docker-compose doown

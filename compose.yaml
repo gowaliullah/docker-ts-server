@@ -1,0 +1,36 @@
+services:
+  mongodb:
+    image: "mongo"
+    volumes:
+      - ts-docker-db:/data/db
+
+    # environment:
+    #   - MONGO_ROOT_USERNAME=ts-docker
+    #   - MONGO_ROOT_PASSWORD=ts-docker
+
+
+    env_file:
+      - .env
+
+
+  ts-backend:
+    build: 
+      context: ./
+      dockerfile: dockerfile
+
+    ports:
+      - "5000:5000"
+
+    volumes:
+      - ts-docker-logs:/app/logs # named volume
+
+  
+
+  # ts-frontend:
+
+
+
+volumes:
+  ts-docker-db:
+
+
